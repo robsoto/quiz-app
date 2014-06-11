@@ -1,0 +1,13 @@
+<head>
+  <title>Quiz</title>
+</head>
+
+<body>
+    {{>loginButtons}}<br><br>
+    {{#if currentUser}}
+        
+     {{> studentView}}
+    {{> teacherView}}
+    {{/if}}
+
+</body>
